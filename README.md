@@ -1,1 +1,3 @@
 # CryptoClustering
+
+Using fewer features for K-Means clustering, such as when applying PCA, simplifies the data by reducing dimensionality, which can lead to more distict and efficient clusters, making the algorithm faster and less complex. However, this simplification may come at the cost of losing some finer details from the original features, which could affect the granularity of the clusters. In contrast, using all features preserves more information but may result in higher-dimensional space. The key trade-off is between computational efficiency and interpretablity versus capturing more subtle patters in the data, where PCA often provide more detailed but potentially overfitted results.
